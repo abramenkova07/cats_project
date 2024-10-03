@@ -1,4 +1,6 @@
+aiopg==1.4.0
 asgiref==3.8.1
+async-timeout==4.0.3
 atomicwrites==1.4.1
 attrs==24.2.0
 certifi==2024.8.30
@@ -24,7 +26,8 @@ MarkupSafe==2.1.5
 oauthlib==3.2.2
 packaging==24.1
 pluggy==1.5.0
-psycopg2-binary==2.9.3
+psycopg2==2.9.9
+psycopg2-binary==2.9.9
 py==1.11.0
 pycparser==2.22
 PyJWT==2.9.0
