@@ -51,9 +51,11 @@ USE_SQLITE=<false или true>
   python manage.py migrate
   python manage.py runserver
   ```
+
 Теперь вам доступна документация по проекту по ссылкам: <br>
 * [Swagger](http://127.0.0.1:8000/swagger/)
-* [Redoc](http://127.0.0.1:8000/redoc/) <br>
+* [Redoc](http://127.0.0.1:8000/redoc/)
+
 Также из подпапки `cats_project/` можно запустить тесты **Pytest**:
 ```bash
   pytest
