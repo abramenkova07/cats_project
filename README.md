@@ -11,7 +11,7 @@
 ## Стек использованных технологий
 
 Проект представляет собой **API**, состоящий из **backend** части.
-* **Backend:** СУБД PostgreSQL (для контейнеризации), СУБД SQLite (для разработки), Django Rest Framework
+* **Backend:** СУБД PostgreSQL (для контейнеризации), СУБД SQLite (для разработки), Django Rest Framework, Pytest
 * **Контейнеризация:** Docker, Gunicorn, nginx
 
 ## Заполнение файла .env
@@ -53,7 +53,11 @@ USE_SQLITE=<false или true>
   ```
 Теперь вам доступна документация по проекту по ссылкам: <br>
 * [Swagger](http://127.0.0.1:8000/swagger/)
-* [Redoc](http://127.0.0.1:8000/redoc/)
+* [Redoc](http://127.0.0.1:8000/redoc/) <br>
+Также из подпапки `cats_project/` можно запустить тесты **Pytest**:
+```bash
+  pytest
+  ```
 
 ## Локальная контейнеризация проекта
 
